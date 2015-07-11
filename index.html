@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Selah</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"> </script>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+
+
+  </head>
+  <body>
+
+    <div class="flex-cont">
+      <div class="row">
+        <div class="inner">
+          <!-- <h1>Selah</h1> -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="inner">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="inner">
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+
+<script type="text/javascript">
+
+  var allmods = $('.row');
+    var pages = ["selah", "maxxie","paloma"];
+    for (var i=0; i< allmods.length; i++){
+      $(allmods[i]).css('background', "url('img/" +pages[i]+".jpg')"  );
+      // $(allmods[i]).css('background',
+      // "linear-gradient("+ color + "," + color +"), url('img/" +curr +".jpg')");
+      $(allmods[i]).css('background-size', 'cover');
+      $(allmods[i]).css('background-position', 'center');
+      // $(allmods[i]).addClass(pages[i]);
+    }
+
+    $(allmods[2]).css('background-position', 'left');
+
+ </script>
+</html>
