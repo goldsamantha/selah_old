@@ -36,17 +36,41 @@
 <script type="text/javascript">
 
   var allmods = $('.row');
-    var pages = ["selah", "maxxie","paloma"];
-    for (var i=0; i< allmods.length; i++){
-      $(allmods[i]).css('background', "url('img/" +pages[i]+".jpg')"  );
-      // $(allmods[i]).css('background',
-      // "linear-gradient("+ color + "," + color +"), url('img/" +curr +".jpg')");
-      $(allmods[i]).css('background-size', 'cover');
-      $(allmods[i]).css('background-position', 'center');
-      // $(allmods[i]).addClass(pages[i]);
-    }
+  var pages = ["selah", "maxxie","paloma"];
+  for (var i=0; i< allmods.length; i++){
+    $(allmods[i]).css('background', "url('img/" +pages[i]+".jpg')"  );
+    // $(allmods[i]).css('background',
+    // "linear-gradient("+ color + "," + color +"), url('img/" +curr +".jpg')");
+    $(allmods[i]).css('background-size', 'cover');
+    $(allmods[i]).css('background-position', 'center');
+    // $(allmods[i]).addClass(pages[i]);
+  }
 
-    $(allmods[2]).css('background-position', 'left');
+  $(allmods[2]).css('background-position', 'left');
+
+  // $('.row').hover(function(){
+  //   $(this).addClass('widen');
+  //   for (var i=0; i<allmods.length; i++){
+  //     //If it does not have the class 'widen' then select
+  //     if (!$(allmods[i]).hasClass('widen')){
+  //       $(allmods[i]).addClass('shrink');
+  //       // console.log("YAY other ones", $(allmods[i]));
+  //     }
+  //   }
+  //
+  // }, function(){
+  //
+  //   $(this).removeClass('widen');
+  //
+  //
+  //   for (var i=0; i<allmods.length; i++){
+  //     if ($(allmods[i]).hasClass('shrink')){
+  //       $(allmods[i]).removeClass('shrink');
+  //     }
+  //   }
+  //
+  // });
+
 
  </script>
 </html>
