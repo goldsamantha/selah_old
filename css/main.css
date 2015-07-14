@@ -62,30 +62,15 @@ h1{
   /*overflow: hidden;*/
 }
 
-/*.widen{
-  width: 50%;
-}
-
-.shrink{
-  width: 25%;
-}*/
 
 .row:hover .inner{
-  /*overflow: hidden;*/
-  /*background: rgba(255, 203, 211,.7);*/
   right: -50%;
   width: 50%;
-  transition: all 1s ease-in;
-  /*width: 50%;*/
+  transition: all 1s ease;
+
+
 }
 
-
-/*.row:hover{
-  background: rgba(255, 203, 211,.7);
-  transition: background 1s ease-in;
-  z-index: 2;
-  width: 50%;
-}*/
 
 
 @media screen and (max-width: 600px){
