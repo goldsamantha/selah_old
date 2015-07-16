@@ -11,21 +11,53 @@
 
   </head>
   <body>
+    <div class="block-head">
+      <h1>Selah, and the Spades</h1>
+    </div>
 
     <div class="flex-cont">
       <div class="row">
         <div class="inner">
           <!-- <h1>Selah</h1> -->
+          <h1><a href="#">Overture</a></h1>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Prologue</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Background Information</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Maybe</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Why Spirit Squad</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Selah and Paloma Visit the City</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">In the Summertime</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">The Five Factions</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">The Spaded Way</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Who Said?</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Details</a></h2>
         </div>
       </div>
 
       <div class="row">
         <div class="inner">
+
+          <h1><a href="#">Act I: Pre-Production</a></h1>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Prologue</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Background Information</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Maybe</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Why Spirit Squad</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Selah and Paloma Visit the City</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">In the Summertime</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">The Five Factions</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">The Spaded Way</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Who Said?</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Details</a></h2>
         </div>
       </div>
 
       <div class="row">
         <div class="inner">
+          <h1><a href="#">Act II: In Development</a></h1>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Prologue</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Background Information</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Maybe</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Why Spirit Squad</a></h2>
+          <h2><a href="http://selahandthespadesposts3.tumblr.com/tagged/prologue">Selah and Paloma Visit the City</a></h2>
         </div>
       </div>
 
@@ -36,9 +68,10 @@
 <script type="text/javascript">
 
   var allmods = $('.row');
-  var pages = ["selah", "maxxie","paloma"];
+  var pages = ["selah3", "maxxie","paloma"];
   for (var i=0; i< allmods.length; i++){
-    $(allmods[i]).css('background', "url('img/" +pages[i]+".jpg')"  );
+    var bg_string = "linear-gradient(rgba(0,0,0," + (1-1/(i+1))+ "), rgba(0,0,0,"+ (1-1/(i+1)) + ")), url('img/" +pages[i]+".jpg')"
+    $(allmods[i]).css('background', bg_string); //"linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('img/" +pages[i]+".jpg')"  );
     // $(allmods[i]).css('background',
     // "linear-gradient("+ color + "," + color +"), url('img/" +curr +".jpg')");
     $(allmods[i]).css('background-size', 'cover');
