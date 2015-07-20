@@ -20,10 +20,22 @@ a{
   border-bottom: none;
 }
 
+p{
+  padding: 20px;
+}
+iframe{
+  width: 100%;
+  height: 100vh;
+}
+
 a:hover{
   /*transition: border 3s ease;*/
   border-bottom: 1px solid #fff;
   /*text-decoration: underline;*/
+}
+
+.page-1{
+  height: 100vh;
 }
 
 .flex-cont{
@@ -61,6 +73,13 @@ a:hover{
 
 .block-head{
   padding-left: 50px;
+  /*position: absolute;*/
+}
+
+.text-block{
+  max-width: 600px;
+  margin: 0 auto;
+  font-weight: 300;
 }
 
 /*.row:nth-child(2){
@@ -102,6 +121,9 @@ a:hover{
 
 }
 
+.b-pad{
+  padding-bottom: 100px;
+}
 
 
 @media screen and (max-width: 600px){
