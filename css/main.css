@@ -96,7 +96,7 @@ a:hover{
   -moz-transition: flex-grow 1s ease-in;
   -o-transition: width 1s ease-in;*/
   transition: flex-grow 1s ease-in;
-  flex-grow: 2;
+  flex-grow: 3;
 
 }
 
