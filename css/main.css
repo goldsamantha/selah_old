@@ -126,13 +126,29 @@ a:hover{
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
   .row{
+    display: block;
     width: 100%;
+    height: 100vh;
+
+  }
+
+  .row:hover .inner{
+    /*all: unset;*/
+    right: 0;
+    width: 100%;
+    transition: none;
+    top: 50%;
   }
 
   .inner{
+    position: relative;
+    right: 0;
+    top: 50%;
+
     width: 100%;
+    height: 50%;
   }
 
 
