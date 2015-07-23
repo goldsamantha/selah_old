@@ -24,6 +24,12 @@ h2{
 
 }
 
+.inner h1{
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+}
+
 a{
   color: #fff;
   text-decoration: none;
@@ -31,7 +37,7 @@ a{
 }
 
 p{
-  padding: 20px;
+  padding: 12px;
 }
 iframe{
   width: 100%;
@@ -82,7 +88,10 @@ a:hover{
 }
 
 .block-head{
-  padding-left: 50px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  /*padding-left: 50px;*/
   /*position: absolute;*/
 }
 
@@ -92,13 +101,7 @@ a:hover{
   font-weight: 300;
 }
 
-/*.row:nth-child(2){
-  opacity: .8;
-}
 
-.row:nth-child(3){
-  opacity: .7;
-}*/
 
 .row:hover{
   /*width: 50%;*/
